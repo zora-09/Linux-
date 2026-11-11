@@ -47,7 +47,12 @@
 
 详细操作记录见：[模块 05：Docker 基础与安装](docs/05-docker-basics-installation.md)。
 
-## 模块 05 阶段 2 验收内容\n\n第二阶段已完成镜像分层与缓存、Tag/Digest、镜像查看与历史分析、save/load、export/import、镜像清理与空间检查、常见拉取故障排查及五道面试题。详细记录见：[模块 05：Docker 镜像管理](docs/05-docker-image-management.md)。\n\n## 实施原则
+## 模块 05 阶段 2 验收内容
+
+第二阶段已完成镜像分层与缓存、Tag/Digest、镜像查看与历史分析、save/load、export/import、镜像清理与空间检查、常见拉取故障排查及五道面试题。
+详细记录见：[模块 05：Docker 镜像管理](docs/05-docker-image-management.md)。
+
+## 实施原则
 
 1. 每个模块按照“原理讲解 → 命令学习 → 动手实验 → 故障排查 → 面试问题 → 文档记录”的顺序推进。
 2. 按照既定模块和阶段顺序实施，不提前跳过阶段。
