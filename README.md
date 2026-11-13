@@ -56,7 +56,7 @@
 | 02 | SSH 安全加固 | 已完成 |
 | 03 | UFW + Fail2ban | 已完成 |
 | 04 | Linux 安全基线 | 已完成 |
-| 05 | Docker 环境部署与管理 | 进行中（阶段 1～2 已完成） |
+| 05 | Docker 环境部署与管理 | 进行中（阶段 1～3 已完成） |
 | 06～10 | 应用部署、HTTPS、自动化、监控、备份 | 待实施 |
 
 ### 模块 05 阶段进度
@@ -65,7 +65,7 @@
 |---|---|---|
 | 1 | Docker 基础与安装 | 已完成 |
 | 2 | Docker 镜像管理 | 已完成 |
-| 3 | Docker 容器管理 | 待开始 |
+| 3 | Docker 容器管理 | 已完成 |
 | 4 | Docker 数据卷与数据持久化 | 待开始 |
 | 5 | Docker 网络管理 | 待开始 |
 | 6 | Dockerfile 镜像构建 | 待开始 |
@@ -74,7 +74,7 @@
 | 9 | Docker 安全管理 | 待开始 |
 | 10 | Docker 综合项目与面试模拟 | 待开始 |
 
-### 模块 05 已完成阶段文档\n\n- [阶段 1：Docker 基础与安装](docs/05-docker-basics-installation.md)\n- [阶段 2：Docker 镜像管理](docs/05-docker-image-management.md)\n\n## 6. 项目说明
+### 模块 05 文档\n\n模块05的阶段文档统一存放在 [docs/05-docker/](docs/05-docker/) 目录：\n\n- [阶段 1：Docker 基础与安装](docs/05-docker/01-docker-basics-installation.md)\n- [阶段 2：Docker 镜像管理](docs/05-docker/02-docker-image-management.md)\n- [阶段 3：Docker 容器管理](docs/05-docker/03-docker-container-management.md)\n\n## 6. 项目说明
 
 本项目为个人 Linux 服务器运维实践项目，
 所有操作记录以实际实施结果为准。涉及服务器地址、账号、密钥、
