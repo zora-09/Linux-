@@ -41,7 +41,7 @@
 | 9 | Docker 安全管理 | 待开始 |
 | 10 | Docker 综合项目与面试模拟 | 待开始 |
 
-## 模块 05 第一阶段验收内容
+## 模块 05 阶段 1 验收内容
 
 第一阶段已完成 Docker 基础概念与架构、容器和虚拟机区别、Namespace/Cgroups/镜像分层原理、Docker Engine 安装与服务管理、hello-world 验证、PID Namespace 实验、daemon.json 镜像加速与日志轮转配置、新建容器日志配置验证，以及 Docker Daemon 启动故障排查练习。
 
@@ -58,7 +58,6 @@
 
 详细记录见：[阶段 3：Docker 容器管理](docs/05-docker/03-docker-container-management.md)。
 
-模块05全部阶段文档统一存放于 [docs/05-docker/](docs/05-docker/) 目录，后续阶段继续沿用两位数字编号。
 
 ## 实施原则
 
