@@ -74,7 +74,16 @@
 | 9 | Docker 安全管理 | 待开始 |
 | 10 | Docker 综合项目与面试模拟 | 待开始 |
 
-### 模块 05 文档\n\n模块05的阶段文档统一存放在 [docs/05-docker/](docs/05-docker/) 目录：\n\n- [阶段 1：Docker 基础与安装](docs/05-docker/01-docker-basics-installation.md)\n- [阶段 2：Docker 镜像管理](docs/05-docker/02-docker-image-management.md)\n- [阶段 3：Docker 容器管理](docs/05-docker/03-docker-container-management.md)\n\n## 6. 项目说明
+### 模块 05 文档
+
+模块 05 的阶段文档统一存放在 [docs/05-docker/](docs/05-docker/) 目录：
+
+- [阶段 1：Docker 基础与安装](docs/05-docker/01-docker-basics-installation.md)
+- [阶段 2：Docker 镜像管理](docs/05-docker/02-docker-image-management.md)
+- [阶段 3：Docker 容器管理](docs/05-docker/03-docker-container-management.md)
+- [阶段 4：Docker 数据卷与数据持久化](docs/05-docker/04-docker-volumes-persistence.md)
+
+## 6. 项目说明
 
 本项目为个人 Linux 服务器运维实践项目，
 所有操作记录以实际实施结果为准。涉及服务器地址、账号、密钥、
