@@ -19,7 +19,7 @@
 | 02 | SSH 远程访问安全加固 | 已完成 |
 | 03 | UFW 防火墙与 Fail2ban 安全防护 | 已完成 |
 | 04 | Linux 系统安全基线配置 | 已完成 |
-| 05 | Docker 环境部署与管理 | 进行中（阶段 1～2 已完成） |
+| 05 | Docker 环境部署与管理 | 进行中（阶段 1～3 已完成） |
 | 06 | Docker Compose 部署 Nginx + Flask + MySQL | 待实施 |
 | 07 | 网站 HTTPS 配置与证书管理 | 待实施 |
 | 08 | Ansible 自动化运维 | 待实施 |
@@ -32,7 +32,7 @@
 |---|---|---|
 | 1 | Docker 基础与安装 | 已完成 |
 | 2 | Docker 镜像管理 | 已完成 |
-| 3 | Docker 容器管理 | 待开始 |
+| 3 | Docker 容器管理 | 已完成 |
 | 4 | Docker 数据卷与数据持久化 | 待开始 |
 | 5 | Docker 网络管理 | 待开始 |
 | 6 | Dockerfile 镜像构建 | 待开始 |
@@ -45,12 +45,20 @@
 
 第一阶段已完成 Docker 基础概念与架构、容器和虚拟机区别、Namespace/Cgroups/镜像分层原理、Docker Engine 安装与服务管理、hello-world 验证、PID Namespace 实验、daemon.json 镜像加速与日志轮转配置、新建容器日志配置验证，以及 Docker Daemon 启动故障排查练习。
 
-详细操作记录见：[模块 05：Docker 基础与安装](docs/05-docker-basics-installation.md)。
+详细操作记录见：[阶段 1：Docker 基础与安装](docs/05-docker/01-docker-basics-installation.md)。
 
 ## 模块 05 阶段 2 验收内容
 
 第二阶段已完成镜像分层与缓存、Tag/Digest、镜像查看与历史分析、save/load、export/import、镜像清理与空间检查、常见拉取故障排查及五道面试题。
-详细记录见：[模块 05：Docker 镜像管理](docs/05-docker-image-management.md)。
+详细记录见：[阶段 2：Docker 镜像管理](docs/05-docker/02-docker-image-management.md)。
+
+## 模块 05 阶段 3 验收内容
+
+第三阶段已完成容器生命周期管理、exec 与 attach、日志查看、on-failure 重启策略、CPU/内存/PIDs 资源限制，以及“启动命令不存在”和“应用运行后异常退出”两类故障模拟与排查，并完成五道阶段面试题。
+
+详细记录见：[阶段 3：Docker 容器管理](docs/05-docker/03-docker-container-management.md)。
+
+模块05全部阶段文档统一存放于 [docs/05-docker/](docs/05-docker/) 目录，后续阶段继续沿用两位数字编号。
 
 ## 实施原则
 
