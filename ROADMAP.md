@@ -19,7 +19,7 @@
 | 02 | SSH 远程访问安全加固 | 已完成 |
 | 03 | UFW 防火墙与 Fail2ban 安全防护 | 已完成 |
 | 04 | Linux 系统安全基线配置 | 已完成 |
-| 05 | Docker 环境部署与管理 | 进行中（阶段 1～4 已完成） |
+| 05 | Docker 环境部署与管理 | 进行中（阶段 1～5 已完成） |
 | 06 | Docker Compose 部署 Nginx + Flask + MySQL | 待实施 |
 | 07 | 网站 HTTPS 配置与证书管理 | 待实施 |
 | 08 | Ansible 自动化运维 | 待实施 |
@@ -34,7 +34,7 @@
 | 2 | Docker 镜像管理 | 已完成 |
 | 3 | Docker 容器管理 | 已完成 |
 | 4 | Docker 数据卷与数据持久化 | 已完成 |
-| 5 | Docker 网络管理 | 待开始 |
+| 5 | Docker 网络管理 | 已完成 |
 | 6 | Dockerfile 镜像构建 | 待开始 |
 | 7 | Docker Compose 多容器编排 | 待开始 |
 | 8 | Docker 日常运维与故障排查 | 待开始 |
@@ -50,6 +50,7 @@
 ## 模块 05 阶段 2 验收内容
 
 第二阶段已完成镜像分层与缓存、Tag/Digest、镜像查看与历史分析、save/load、export/import、镜像清理与空间检查、常见拉取故障排查及五道面试题。
+
 详细记录见：[阶段 2：Docker 镜像管理](docs/05-docker/02-docker-image-management.md)。
 
 ## 模块 05 阶段 3 验收内容
@@ -58,12 +59,17 @@
 
 详细记录见：[阶段 3：Docker 容器管理](docs/05-docker/03-docker-container-management.md)。
 
-
 ## 模块 05 阶段 4 验收内容
 
 第四阶段已完成 Volume、Bind Mount、tmpfs 原理与实验，验证 Volume 生命周期、只读挂载、宿主机与容器文件共享、UID/GID 权限影响；完成 Volume 备份到宿主机、归档检查及恢复到新 Volume 的实验，并完成 Mounts 信息检查、数据不可见、权限不足和数据生命周期故障排查及面试复盘。
 
 详细记录见：[阶段 4：Docker 数据卷与数据持久化](docs/05-docker/04-docker-volumes-persistence.md)。
+
+## 模块 05 阶段 5 验收内容
+
+第五阶段已完成 Docker 默认 bridge 与自定义 bridge 网络对比、自定义网络创建与容器接入、容器名 DNS 解析、容器多网络连接和路由查看；验证端口映射、host/none 网络模式及网络命名空间；使用 nc、ss/netstat 检查 TCP 监听和连通性，并模拟网络断开、端口监听退出等故障后恢复。另完成未使用网络清理，并了解 Overlay 网络用途（当前 Swarm 状态为 inactive，未进行跨主机实操）。
+
+详细记录见：[阶段 5：Docker 网络管理](docs/05-docker/05-docker-networking.md)。
 
 ## 实施原则
 
