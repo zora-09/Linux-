@@ -56,7 +56,7 @@
 | 02 | SSH 安全加固 | 已完成 |
 | 03 | UFW + Fail2ban | 已完成 |
 | 04 | Linux 安全基线 | 已完成 |
-| 05 | Docker 环境部署与管理 | 进行中（阶段 1～4 已完成） |
+| 05 | Docker 环境部署与管理 | 进行中（阶段 1～5 已完成） |
 | 06～10 | 应用部署、HTTPS、自动化、监控、备份 | 待实施 |
 
 ### 模块 05 阶段进度
@@ -67,7 +67,7 @@
 | 2 | Docker 镜像管理 | 已完成 |
 | 3 | Docker 容器管理 | 已完成 |
 | 4 | Docker 数据卷与数据持久化 | 已完成 |
-| 5 | Docker 网络管理 | 待开始 |
+| 5 | Docker 网络管理 | 已完成 |
 | 6 | Dockerfile 镜像构建 | 待开始 |
 | 7 | Docker Compose 多容器编排 | 待开始 |
 | 8 | Docker 日常运维与故障排查 | 待开始 |
@@ -82,6 +82,7 @@
 - [阶段 2：Docker 镜像管理](docs/05-docker/02-docker-image-management.md)
 - [阶段 3：Docker 容器管理](docs/05-docker/03-docker-container-management.md)
 - [阶段 4：Docker 数据卷与数据持久化](docs/05-docker/04-docker-volumes-persistence.md)
+- [阶段 5：Docker 网络管理](docs/05-docker/05-docker-networking.md)
 
 ## 6. 项目说明
 
