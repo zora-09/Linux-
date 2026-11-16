@@ -19,7 +19,7 @@
 | 02 | SSH 远程访问安全加固 | 已完成 |
 | 03 | UFW 防火墙与 Fail2ban 安全防护 | 已完成 |
 | 04 | Linux 系统安全基线配置 | 已完成 |
-| 05 | Docker 环境部署与管理 | 进行中（阶段 1～7 已完成） |
+| 05 | Docker 环境部署与管理 | 进行中（阶段 1～7 已完成；阶段 8 学习资料已整理，待实践验收） |
 | 06 | Docker Compose 部署 Nginx + Flask + MySQL | 待实施 |
 | 07 | 网站 HTTPS 配置与证书管理 | 待实施 |
 | 08 | Ansible 自动化运维 | 待实施 |
@@ -37,7 +37,7 @@
 | 5 | Docker 网络管理 | 已完成 |
 | 6 | Dockerfile 镜像构建 | 已完成 |
 | 7 | Docker Compose 多容器编排 | 已完成 |
-| 8 | Docker 日常运维与故障排查 | 待开始 |
+| 8 | Docker Swarm 集群编排 | 学习资料已整理，待实践验收 |
 | 9 | Docker 安全管理 | 待开始 |
 | 10 | Docker 综合项目与面试模拟 | 待开始 |
 
@@ -82,6 +82,12 @@
 第七阶段已完成 Docker Compose YAML 配置、常用命令、服务网络与服务名 DNS、Named Volume 与 Bind Mount、depends_on 与 healthcheck、环境变量与 .env、服务扩缩容、镜像更新和故障排查；完成 Nginx + Flask + Redis 综合项目，验证反向代理、Redis 数据持久化、服务停止后的 502 故障及恢复。
 
 详细记录见：[阶段 7：Docker Compose 多容器编排](docs/05-docker/07-docker-compose.md)。
+
+## 模块 05 阶段 8 学习内容
+
+阶段 8 主题调整为 Docker Swarm 集群编排，学习资料已整理，涵盖 Swarm 架构、Manager/Worker、Raft 仲裁、集群初始化与节点管理、Service/Task、扩缩容、Routing Mesh、Overlay 网络、服务发现、Stack 部署、滚动更新、回滚和故障排查。当前为资料整理完成，尚未标记为实际集群实践验收完成。
+
+详细记录见：[阶段 8：Docker Swarm 集群编排](docs/05-docker/08-docker-swarm.md)。
 
 ## 实施原则
 
