@@ -18,7 +18,7 @@
 | 操作系统 | Ubuntu 26.04 |
 | 系统管理 | Linux、systemd、APT |
 | 安全防护 | SSH、UFW、Fail2ban |
-| 容器技术 | Docker、Docker Compose |
+| 容器技术 | Docker、Docker Compose、Docker Swarm |
 | Web 服务 | Nginx、Flask |
 | 数据库 | MySQL |
 | 自动化运维 | Ansible |
@@ -70,7 +70,7 @@
 | 5 | Docker 网络管理 | 已完成 |
 | 6 | Dockerfile 镜像构建 | 已完成 |
 | 7 | Docker Compose 多容器编排 | 已完成 |
-| 8 | Docker 日常运维与故障排查 | 待开始 |
+| 8 | Docker Swarm 集群编排 | 学习资料已整理，待实践验收 |
 | 9 | Docker 安全管理 | 待开始 |
 | 10 | Docker 综合项目与面试模拟 | 待开始 |
 
@@ -85,6 +85,7 @@
 - [阶段 5：Docker 网络管理](docs/05-docker/05-docker-networking.md)
 - [阶段 6：Dockerfile 镜像构建](docs/05-docker/06-dockerfile-image-build.md)
 - [阶段 7：Docker Compose 多容器编排](docs/05-docker/07-docker-compose.md)
+- [阶段 8：Docker Swarm 集群编排](docs/05-docker/08-docker-swarm.md)
 
 ## 6. 项目说明
 
