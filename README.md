@@ -56,7 +56,7 @@
 | 02 | SSH 安全加固 | 已完成 |
 | 03 | UFW + Fail2ban | 已完成 |
 | 04 | Linux 安全基线 | 已完成 |
-| 05 | Docker 环境部署与管理 | 进行中（阶段 1～7 已完成） |
+| 05 | Docker 环境部署与管理 | 已完成（10 个阶段全部完成） |
 | 06～10 | 应用部署、HTTPS、自动化、监控、备份 | 待实施 |
 
 ### 模块 05 阶段进度
@@ -70,9 +70,9 @@
 | 5 | Docker 网络管理 | 已完成 |
 | 6 | Dockerfile 镜像构建 | 已完成 |
 | 7 | Docker Compose 多容器编排 | 已完成 |
-| 8 | Docker Swarm 集群编排 | 学习资料已整理，待实践验收 |
-| 9 | Docker 安全管理 | 待开始 |
-| 10 | Docker 综合项目与面试模拟 | 待开始 |
+| 8 | Docker Swarm 集群编排 | 已完成 |
+| 9 | Docker 安全管理 | 已完成 |
+| 10 | Docker 综合项目与面试模拟 | 已完成 |
 
 ### 模块 05 文档
 
@@ -86,6 +86,8 @@
 - [阶段 6：Dockerfile 镜像构建](docs/05-docker/06-dockerfile-image-build.md)
 - [阶段 7：Docker Compose 多容器编排](docs/05-docker/07-docker-compose.md)
 - [阶段 8：Docker Swarm 集群编排](docs/05-docker/08-docker-swarm.md)
+- [阶段 9：Docker 安全管理](docs/05-docker/09-docker-security.md)
+- [阶段 10：Docker 综合实战与面试总结](docs/05-docker/10-docker-comprehensive-practice.md)
 
 ## 6. 项目说明
 
