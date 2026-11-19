@@ -110,7 +110,7 @@
 
 第六模块已完成当前学习范围内的 HTTPS/TLS 原理学习，以及 OpenSSL 私钥生成、CSR 生成与查看、自签名证书生成、证书信息和 SAN 检查、证书与私钥公钥匹配验证、自签名证书验证。公共 CA 申请、Certbot 自动续期、Nginx HTTPS 部署和真实站点故障演练未在本轮执行，相关原理、配置示例和排查方法已整理为知识参考。
 
-详细记录见：[模块 06：网站 HTTPS 配置与证书管理](docs/06-https/01-https-tls-certificates-openssl.md)。
+详细记录见：[模块 06：网站 HTTPS 配置与证书管理](docs/module-06-https-certificates.md)。
 
 ## 实施原则
 
