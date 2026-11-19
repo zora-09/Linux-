@@ -21,7 +21,7 @@
 | 03 | UFW 防火墙与 Fail2ban 安全防护 | 已完成 |
 | 04 | Linux 系统安全基线配置 | 已完成 |
 | 05 | Docker 环境部署、管理与 Compose 多容器应用部署 | 已完成 |
-| 06 | 网站 HTTPS 配置与证书管理 | 当前开始 |
+| 06 | 网站 HTTPS 配置与证书管理 | 已完成 |
 | 07 | Ansible 自动化运维 | 待实施 |
 | 08 | Prometheus + Grafana 监控告警 | 待实施 |
 | 09 | 自动化备份、恢复与故障演练 | 待实施 |
@@ -105,6 +105,12 @@
 ## Docker Compose 综合应用部署验收
 
 已在 Docker 学习模块中完成 Nginx + Flask + MySQL 多容器应用部署与联调，涉及 Flask 应用容器化、MySQL 数据库服务、Compose 服务编排、容器网络通信、Nginx 反向代理和数据持久化验证。该综合应用部署作为模块 05 的扩展实战内容，不再单独编号为模块。
+
+## 模块 06 验收内容
+
+第六模块已完成当前学习范围内的 HTTPS/TLS 原理学习，以及 OpenSSL 私钥生成、CSR 生成与查看、自签名证书生成、证书信息和 SAN 检查、证书与私钥公钥匹配验证、自签名证书验证。公共 CA 申请、Certbot 自动续期、Nginx HTTPS 部署和真实站点故障演练未在本轮执行，相关原理、配置示例和排查方法已整理为知识参考。
+
+详细记录见：[模块 06：网站 HTTPS 配置与证书管理](docs/06-https/01-https-tls-certificates-openssl.md)。
 
 ## 实施原则
 
