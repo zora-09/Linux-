@@ -1,10 +1,10 @@
 # Server Operations Platform
 
-基于 Ubuntu 26.04 云服务器构建的综合运维实践项目。
+基于 Ubuntu 与 Rocky Linux 两台云服务器构建的综合运维实践项目。项目从模块 01 到模块 06 主要使用 Ubuntu 云服务器开展 Linux 系统管理、安全加固、Docker 应用部署和 HTTPS 实践；从模块 07（Ansible 自动化运维）开始，新增一台 2 核 4GB 内存的 Rocky Linux 云服务器，形成 Ubuntu 控制端与 Rocky Linux 被控端的双机实验环境。
 
 ## 1. 项目介绍
 
-本项目以一台 Linux 云服务器为基础，从系统初始化、安全加固开始，逐步构建包含容器化应用部署、自动化运维、监控告警和备份恢复的综合运维平台。
+本项目采用逐步扩展的双机架构：模块 01～06 以 Ubuntu 云服务器为主要实验环境；从模块 07 开始新增一台 2 核 4GB 内存的 Rocky Linux 云服务器，由 Ubuntu 承担控制端及已有服务角色，Rocky Linux 作为 Ansible 被控端及后续运维实验节点。项目逐步构建包含 Linux 系统管理、安全加固、容器化应用部署、自动化运维、监控告警和备份恢复的综合运维实践环境。
 
 项目主要通过实际操作完成，不仅记录部署过程，还会记录配置文件、验证命令、运行结果以及故障排查过程。
 
@@ -12,7 +12,7 @@
 
 | 分类 | 技术 |
 |---|---|
-| 操作系统 | Ubuntu 26.04 |
+| 操作系统 | Ubuntu 26.04、Rocky Linux 10.2 |
 | 系统管理 | Linux、systemd、APT |
 | 安全防护 | SSH、UFW、Fail2ban |
 | 容器技术 | Docker、Docker Compose、Docker Swarm |
@@ -41,7 +41,7 @@
 - `docs/`：模块实施记录
 - `scripts/`：自动化脚本
 - `configs/`：配置文件
-- `modules/`：各模块实施文件
+- `modules/`：各模块实施文件（后续以 docs 中的模块文档作为主要学习记录）
 - `ROADMAP.md`：项目路线图
 
 ## 5. 当前项目进度
