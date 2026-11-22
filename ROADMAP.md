@@ -22,7 +22,7 @@
 | 04 | Linux 系统安全基线配置 | 已完成 |
 | 05 | Docker 环境部署、管理与 Compose 多容器应用部署 | 已完成 |
 | 06 | 网站 HTTPS 配置与证书管理 | 已完成 |
-| 07 | Ansible 自动化运维 | 待实施 |
+| 07 | Ansible 自动化运维 | 已完成 |
 | 08 | Prometheus + Grafana 监控告警 | 待实施 |
 | 09 | 自动化备份、恢复与故障演练 | 待实施 |
 
@@ -111,6 +111,17 @@
 第六模块已完成当前学习范围内的 HTTPS/TLS 原理学习，以及 OpenSSL 私钥生成、CSR 生成与查看、自签名证书生成、证书信息和 SAN 检查、证书与私钥公钥匹配验证、自签名证书验证。公共 CA 申请、Certbot 自动续期、Nginx HTTPS 部署和真实站点故障演练未在本轮执行，相关原理、配置示例和排查方法已整理为知识参考。
 
 详细记录见：[模块 06：网站 HTTPS 配置与证书管理](docs/module-06-https-certificates.md)。
+
+
+## 模块 07 验收内容
+
+第七模块已完成 Ansible 自动化运维实践，采用 Ubuntu 26.04.1 LTS 作为控制端、Rocky Linux 10.2 作为被控端，通过 SSH Ed25519 密钥认证连接。完成 Ansible Core 安装、Inventory 与 ansible.cfg 配置、Ad-Hoc 批量管理，以及软件包、服务、防火墙、用户、目录和文件管理。
+
+Playbook 工程化部分完成变量与命令行变量覆盖、Facts、when、loop、Handlers、Jinja2 Templates 和 Roles；安全与复杂任务部分完成 Ansible Vault、become、Tags、ignore_errors、failed_when、block/rescue/always，以及 limit、serial、forks、run_once、throttle 等执行控制知识与实验。
+
+综合项目使用 Common 和 Nginx 两个 Role，通过统一入口 `playbooks/site.yml` 完成 Rocky Linux 运维目录初始化和 Nginx 部署。完成 Nginx 配置冲突排查、Check Mode、Diff Mode、幂等性验证、日志查看及软件包错误排查。综合 Playbook 再次执行时达到 `changed=0`、`failed=0`。
+
+详细记录见：[模块 07：Ansible 自动化运维](docs/module-07-ansible-automation.md)。
 
 ## 实施原则
 
