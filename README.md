@@ -54,7 +54,7 @@
 | 04 | Linux 安全基线 | 已完成 |
 | 05 | Docker 环境部署、管理与 Compose 多容器应用部署 | 已完成 |
 | 06 | 网站 HTTPS 配置与证书管理 | 已完成 |
-| 07 | Ansible 自动化运维 | 待实施 |
+| 07 | Ansible 自动化运维 | 已完成 |
 | 08 | Prometheus + Grafana 监控告警 | 待实施 |
 | 09 | 自动化备份、恢复与故障演练 | 待实施 |
 
@@ -88,6 +88,22 @@
 - [阶段 8：Docker Swarm 集群编排](docs/05-docker/08-docker-swarm.md)
 - [阶段 9：Docker 安全管理](docs/05-docker/09-docker-security.md)
 - [阶段 10：Docker 综合实战与面试总结](docs/05-docker/10-docker-comprehensive-practice.md)
+
+
+### 模块 07 阶段进度
+
+| 阶段 | 内容 | 状态 |
+|---|---|---|
+| 1 | Ansible 环境与 SSH 连通性 | 已完成 |
+| 2 | 批量主机配置管理 | 已完成 |
+| 3 | Playbook 工程化：变量、Facts、条件、循环、Handlers、Templates 与 Roles | 已完成 |
+| 4 | Vault、安全控制、错误处理与执行控制 | 已完成 |
+| 5 | 自动化运维综合项目：Common 与 Nginx Roles | 已完成 |
+| 6 | 自动化质量与故障排查：幂等性、Check Mode、Diff、日志 | 已完成 |
+
+### 模块 07 文档
+
+- [模块 07：Ansible 自动化运维](docs/module-07-ansible-automation.md)
 
 ## 6. 项目说明
 
