@@ -29,7 +29,7 @@
 | 05 | Docker 环境部署、管理与 Compose 多容器应用部署 | 已完成 |
 | 06 | 网站 HTTPS 配置与证书管理 | 已完成 |
 | 07 | Ansible 自动化运维 | 已完成 |
-| 08 | Prometheus + Grafana 监控告警 | 待实施 |
+| 08 | Prometheus + Grafana 监控告警 | 已完成 |
 | 09 | 自动化备份、恢复与故障演练 | 待实施 |
 
 ## 模块 05 阶段拆分
@@ -128,6 +128,17 @@ Playbook 工程化部分完成变量与命令行变量覆盖、Facts、when、lo
 综合项目使用 Common 和 Nginx 两个 Role，通过统一入口 `playbooks/site.yml` 完成 Rocky Linux 运维目录初始化和 Nginx 部署。完成 Nginx 配置冲突排查、Check Mode、Diff Mode、幂等性验证、日志查看及软件包错误排查。综合 Playbook 再次执行时达到 `changed=0`、`failed=0`。
 
 详细记录见：[模块 07：Ansible 自动化运维](docs/module-07-ansible-automation.md)。
+
+
+## 模块 08 验收内容
+
+第八模块已完成 Prometheus + Grafana 双机主机监控实践。采用 Rocky Linux 10.2 部署 Prometheus 3.13.5、Grafana OSS 13.3.1 和 Alertmanager 0.35.0；Ubuntu 26.04.1 与 Rocky Linux 均部署 Node Exporter 1.12.1。通过 Prometheus Pull 模式采集两台主机的 CPU、内存、磁盘和网络指标，完成 PromQL 查询及 Grafana 双机仪表盘配置。
+
+告警部分完成 Prometheus 与 Alertmanager 对接，配置 CPU 使用率和根分区使用率告警规则，并通过临时调整阈值验证 Pending、Firing 和 Alertmanager 告警接收。尚未配置邮件、企业微信、钉钉或外部 Webhook 等真实通知接收端。
+
+综合演练完成 Node Exporter 停止导致 Target Down 的检测与恢复、CPU 压力下的进程定位和指标观察、磁盘告警阈值模拟，以及结合 uptime、free、df、ss、curl 等命令的综合 Web 访问排查。CPU 压力测试未触发正式 80% 阈值告警；磁盘告警通过临时降低阈值模拟，未实际填满磁盘。
+
+详细记录见：[模块 08：Prometheus + Grafana 监控告警](docs/module-08-prometheus-grafana-monitoring.md)。
 
 ## 实施原则
 
