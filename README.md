@@ -55,7 +55,7 @@
 | 05 | Docker 环境部署、管理与 Compose 多容器应用部署 | 已完成 |
 | 06 | 网站 HTTPS 配置与证书管理 | 已完成 |
 | 07 | Ansible 自动化运维 | 已完成 |
-| 08 | Prometheus + Grafana 监控告警 | 待实施 |
+| 08 | Prometheus + Grafana 监控告警 | 已完成 |
 | 09 | 自动化备份、恢复与故障演练 | 待实施 |
 
 ### 模块 05 阶段进度
@@ -104,6 +104,23 @@
 ### 模块 07 文档
 
 - [模块 07：Ansible 自动化运维](docs/module-07-ansible-automation.md)
+
+
+### 模块 08 阶段进度
+
+| 阶段 | 内容 | 状态 |
+|---|---|---|
+| 1 | 监控基础与架构 | 已完成 |
+| 2 | Prometheus 部署与入门 | 已完成 |
+| 3 | Node Exporter 双机部署 | 已完成 |
+| 4 | PromQL 指标查询 | 已完成 |
+| 5 | Grafana 数据源与双机仪表盘 | 已完成 |
+| 6 | Alertmanager 与告警规则 | 已完成 |
+| 7 | 综合项目与故障演练 | 已完成 |
+
+### 模块 08 文档
+
+- [模块 08：Prometheus + Grafana 监控告警](docs/module-08-prometheus-grafana-monitoring.md)
 
 ## 6. 项目说明
 
